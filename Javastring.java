@@ -19,6 +19,21 @@ public class Javastring {
         String result = str1 + " " + str2;
         System.out.println(result);
 
+
+        String x = "10";
+        int y = 20;
+        String z = x + y;  // z will be 1020 (a String)
+        System.out.println(z);
+
+        String txt1 = "We are the so-called \"Vikings\" from the north.";
+        System.out.println(txt1);
+
+        String x1 = "It\'s alright.";
+        System.out.println(x1);
+
+        String txt2 = "The character \\ is called backslash.";
+        System.out.println(txt2);
+
         //	append(String str)
         // StringBuffer sb = new StringBuffer("Hello");
         // sb.append(" World");
