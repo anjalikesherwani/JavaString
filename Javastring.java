@@ -34,6 +34,24 @@ public class Javastring {
         String txt2 = "The character \\ is called backslash.";
         System.out.println(txt2);
 
+
+        //new line
+        // String a = "Hello\nWorld";
+        // System.out.println(a);
+
+
+        // Carriage Return
+        String b = "      Hello Java is good\rWorld!";
+        System.out.println(b);
+
+        //tab
+        String c = "Hello\tWorld";
+        System.out.println(c);
+
+        // Backspace
+        String d = "Hel\blo World!";
+        System.out.println(d);
+
         //	append(String str)
         // StringBuffer sb = new StringBuffer("Hello");
         // sb.append(" World");
